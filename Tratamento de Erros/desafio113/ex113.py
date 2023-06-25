@@ -1,4 +1,4 @@
-from desafio113.funções import numero
+from funções import numero
 try:
     int = numero.leiaint('Digite um valor inteiro: ')
 except KeyboardInterrupt:

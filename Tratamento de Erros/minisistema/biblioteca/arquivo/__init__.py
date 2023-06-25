@@ -1,4 +1,3 @@
-from minisistema.biblioteca.interface import *
 def existe(arquivo):
     try:
         a = open(arquivo, 'rt')

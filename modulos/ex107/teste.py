@@ -1,4 +1,4 @@
-from ex107 import moedas
+import moedas
 p = float(input('Digite um valor: '))
 print(f'o Dobro de {p}  é {moedas.dobro(p)}')
 print(f'A metade de {p} é {moedas.metade(p)}')

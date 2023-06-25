@@ -1,5 +1,5 @@
-from minisistema.biblioteca.interface import *
-from minisistema.biblioteca.arquivo import *
+from biblioteca.interface import *
+from biblioteca.arquivo import *
 from time import sleep
 try:
     arquivo = str(input('Qual arquivo deseja abrir ou criar? '))
